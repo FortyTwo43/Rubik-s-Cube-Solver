@@ -1,4 +1,4 @@
-class Arista():
+class Arista:
     def __init__(self, color1: str, color2: str):
         self.color1: str = color1
         self.color2:str = color2
