@@ -1,4 +1,6 @@
-class Esquina:
+from Pieza import Pieza
+
+class Esquina(Pieza):
     def __init__(self, color1, color2, color3):
         self.color1: str = color1
         self.color1: str = color2
